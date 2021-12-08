@@ -212,12 +212,12 @@ class ToExcel:
         self.sys_write()
         self.process_write()
         # self.backup()
-        path = "C:/bitanswer/诚谦运维报告.xls"
+        path = "C:/users/public/运维报告.xls"
         print("save to:", path)
         self.workbook.save(path)
 
 
 if __name__ == '__main__':
-    # ToExcel().print_to_excel()
-    # input('Press <Enter>')
-    print("hello world")
+    ToExcel().print_to_excel()
+    input('Press <Enter>')
+    # print("hello world")

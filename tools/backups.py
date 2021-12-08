@@ -6,7 +6,7 @@ import ctypes
 
 Path = r"C:\xampp\mysql\data"
 backPath = os.path.join(r"C:\back", str(
-    time.strftime("%Y-%m-%d") + r"\bit_e3"))
+    time.strftime("%Y-%m-%d"))
 
 
 def backup():
